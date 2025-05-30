@@ -20,7 +20,7 @@
     <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
-            <p class="nav-name">Doe</p>
+            <p class="nav-name">Hitanshu</p>
             <span>.</span>
         </div>
         <div class="nav-menu" id="myNavMenu">
@@ -61,7 +61,7 @@
        <section class="featured-box" id="home">
           <div class="featured-text">
             <div class="featured-text-card">
-                <span>John Doe</span>
+                <span>Hitanshu Jatinkumar Kanabar</span>
             </div>
             <div class="featured-name">
                 <p>I'm <span class="typedText"></span></p>
@@ -134,10 +134,9 @@
                         <h3>Backend</h3>
                     </div>
                     <div class="skills-list">
+                        <span>Node</span>
                         <span>PHP</span>
-                        <span>JAVA</span>
                         <span>Python</span>
-                        <span>C++</span>
                     </div>
                 </div>
                 <div class="skills-box">
@@ -155,28 +154,373 @@
        </section>
 
        <!-- -------------- PROJECT BOX ---------------- -->
-       <section class="section" id="projects">
-          <div class="top-header">
-              <h1>Projects</h1>
-          </div>
-          <div class="project-container">
-            <div class="project-box">
-                <i class="uil uil-briefcase-alt"></i>
-                <h3>Completed</h3>
-                <label>15+ Finished Projects</label>
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Projects</h1>
             </div>
-            <div class="project-box">
-                <i class="uil uil-users-alt"></i>
-                <h3>Clients</h3>
-                <label>25+ Happy Clients</label>
+            
+            <!-- Project Categories -->
+            <div class="project-categories">
+                <button class="category-btn active" data-category="all">All Projects</button>
+                <button class="category-btn" data-category="fullstack">Full Stack</button>
+                <button class="category-btn" data-category="aiml">AI/ML</button>
+                <button class="category-btn" data-category="devops">DevOps</button>
+                <button class="category-btn" data-category="web">Web Development</button>
+                <button class="category-btn" data-category="healthcare">Healthcare</button>
             </div>
-            <div class="project-box">
-                <i class="uil uil-award"></i>
-                <h3>Experience</h3>
-                <label>7+ Years in the field</label>
+            
+            <!-- Projects Container -->
+            <div class="projects-grid">
+                <!-- Full Stack Projects -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Live+Chat" alt="Live Chatting App">
+                    </div>
+                    <div class="project-content">
+                        <h3>Live-Chatting-App</h3>
+                        <p>Real-time chat application with user authentication and message history</p>
+                        <a href="https://github.com/hitanshusince2004/Live-Chatting-App" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Habit+Tracker" alt="Habit Tracker">
+                    </div>
+                    <div class="project-content">
+                        <h3>habit_tracker_NextJS</h3>
+                        <p>Daily habit tracking application built with Next.js</p>
+                        <a href="https://github.com/hitanshusince2004/habit_tracker_NextJS" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Reforestation" alt="Reforestation">
+                    </div>
+                    <div class="project-content">
+                        <h3>reforestation-fe</h3>
+                        <p>Frontend for reforestation tracking application</p>
+                        <a href="https://github.com/ankurchheda2004/reforestation-fe" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Reforestation+BE" alt="Reforestation Backend">
+                    </div>
+                    <div class="project-content">
+                        <h3>reforestation-be</h3>
+                        <p>Backend system for reforestation application</p>
+                        <a href="https://github.com/ankurchheda2004/reforestation-be" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- AI/ML Projects -->
+                <div class="project-card" data-category="aiml">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Music+Rec" alt="Music Recommendation">
+                    </div>
+                    <div class="project-content">
+                        <h3>Music Recommendation</h3>
+                        <p>Music recommendation system based on user preferences</p>
+                        <a href="https://github.com/hitanshusince2004/My-internship-Music-Reccomandation---using-user-preferences-" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- DevOps Projects -->
+                <div class="project-card" data-category="devops">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=DevOps" alt="DevOps Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>DevOps_01</h3>
+                        <p>DevOps project demonstrating CI/CD pipelines</p>
+                        <a href="https://github.com/hitanshusince2004/DevOps_01" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="devops">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=DevOps+Exp" alt="DevOps Experiment">
+                    </div>
+                    <div class="project-content">
+                        <h3>DevOpsExp5</h3>
+                        <p>DevOps experiments and implementations</p>
+                        <a href="https://github.com/hitanshusince2004/DevOpsExp5" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Web Development Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Portfolio" alt="Portfolio">
+                    </div>
+                    <div class="project-content">
+                        <h3>Portfolio</h3>
+                        <p>Personal portfolio website showcasing skills</p>
+                        <a href="https://github.com/hitanshusince2004/Portfolio" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Login+Page" alt="Login Page">
+                    </div>
+                    <div class="project-content">
+                        <h3>Login-Page-BeaCSS</h3>
+                        <p>Beautiful CSS login page design</p>
+                        <a href="https://github.com/hitanshusince2004/Login-Page-BeaCSS" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Payment+Form" alt="Payment Form">
+                    </div>
+                    <div class="project-content">
+                        <h3>Payment-Form-JS</h3>
+                        <p>Interactive payment form with JavaScript validation</p>
+                        <a href="https://github.com/hitanshusince2004/Payment-Form-JS" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Interactive+Map" alt="Interactive Map">
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive-Map</h3>
+                        <p>Interactive map application with custom features</p>
+                        <a href="https://github.com/hitanshusince2004/Interactive-Map" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=HTML+Repo" alt="HTML Repo">
+                    </div>
+                    <div class="project-content">
+                        <h3>HTML-Repo</h3>
+                        <p>Collection of HTML templates and examples</p>
+                        <a href="https://github.com/hitanshusince2004/HTML-Repo-" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Aura+Craft" alt="Aura Craft">
+                    </div>
+                    <div class="project-content">
+                        <h3>aura-craft-portfolio-site</h3>
+                        <p>Creative portfolio website design</p>
+                        <a href="https://github.com/hitanshusince2004/aura-craft-portfolio-site" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=GK+Gadgets" alt="GK Gadgets">
+                    </div>
+                    <div class="project-content">
+                        <h3>GK-Gadgets-assignment</h3>
+                        <p>E-commerce assignment for Internshala</p>
+                        <a href="https://github.com/hitanshusince2004/-hitanshusince2004-internshala-GK-Gadgets-assigment-" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Healthcare Projects -->
+                <div class="project-card" data-category="healthcare">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Health+Care" alt="Health Care APD">
+                    </div>
+                    <div class="project-content">
+                        <h3>Health-Care-APD</h3>
+                        <p>Healthcare application for appointment scheduling</p>
+                        <a href="https://github.com/hitanshusince2004/Health-Care-APD-" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="healthcare">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Health+Card" alt="Health Card">
+                    </div>
+                    <div class="project-content">
+                        <h3>health-card</h3>
+                        <p>Digital health card management system</p>
+                        <a href="https://github.com/ankurchheda2004/health-card" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="healthcare">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Health+Card+2" alt="Health Card 2.0">
+                    </div>
+                    <div class="project-content">
+                        <h3>HealthCard2.o</h3>
+                        <p>Improved version of digital health card system</p>
+                        <a href="https://github.com/sahilmange02/HealthCard2.o" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="healthcare">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Health+Portal" alt="Health Portal">
+                    </div>
+                    <div class="project-content">
+                        <h3>Health-Card-Portal</h3>
+                        <p>Portal for managing digital health cards</p>
+                        <a href="https://github.com/hitanshusince2004/Health-Card-Portal" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Other Projects -->
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=Sem+Project" alt="6th Sem Project">
+                    </div>
+                    <div class="project-content">
+                        <h3>6th-sem-project</h3>
+                        <p>Academic project for 6th semester</p>
+                        <a href="https://github.com/hitanshusince2004/6th-sem-project" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="other">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/300x200?text=HITUJITUENT" alt="HITUJITUENT">
+                    </div>
+                    <div class="project-content">
+                        <h3>HITUJITUENT</h3>
+                        <p>Personal project/experiment</p>
+                        <a href="https://github.com/hitanshusince2004/HITUJITUENT" target="_blank" class="project-link">View Project</a>
+                    </div>
+                </div>
             </div>
-          </div>
-       </section>
+        </section>
+
+<style>
+    .project-categories {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+    
+    .category-btn {
+        padding: 8px 16px;
+        background: #f1f1f1;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-size: 14px;
+    }
+    
+    .category-btn:hover {
+        background: #e0e0e0;
+    }
+    
+    .category-btn.active {
+        background: #147efb;
+        color: white;
+    }
+    
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 25px;
+    }
+    
+    .project-card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    
+    .project-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    }
+    
+    .project-image {
+        height: 180px;
+        overflow: hidden;
+        background: #f5f5f5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .project-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .project-content {
+        padding: 20px;
+    }
+    
+    .project-content h3 {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+    }
+    
+    .project-content p {
+        color: #666;
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    
+    .project-link {
+        display: inline-block;
+        padding: 8px 15px;
+        background: #147efb;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 14px;
+        transition: background 0.3s ease;
+    }
+    
+    .project-link:hover {
+        background: #0d6bd9;
+    }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const categoryBtns = document.querySelectorAll('.category-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        
+        categoryBtns.forEach(btn => {
+            btn.addEventListener('click', function() {
+                // Remove active class from all buttons
+                categoryBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                const category = this.dataset.category;
+                
+                // Filter projects
+                projectCards.forEach(card => {
+                    if (category === 'all' || card.dataset.category === category) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    });
+</script>
 
        <!-- -------------- CONTACT BOX ---------------- -->
        <section class="section" id="contact">
@@ -188,8 +532,8 @@
              <div class="col">
                 <div class="contact-info">
                     <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
-                    <p><i class="uil uil-envelope"></i> Email: john@doe.com</p>
-                    <p><i class="uil uil-phone"></i> Tel: +250 708 770 000</p>
+                    <p><i class="uil uil-envelope"></i> Email: hitanshugk@gmail.com</p>
+                    <p><i class="uil uil-phone"></i> Tel: +91 77159 988..</p>
                 </div>
              </div>
              <div class="col">
@@ -214,7 +558,7 @@
     <!-- --------------- FOOTER --------------- -->
     <footer>
         <div class="top-footer">
-            <p>John Doe .</p>
+            <p>Hitanshu Kanabar .</p>
         </div>
         <div class="middle-footer">
             <ul class="footer-menu">
@@ -239,7 +583,7 @@
             <div class="icon"><i class="uil uil-github-alt"></i></div>
         </div>
         <div class="bottom-footer">
-            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">John Doe</a> - All rights reserved</p>
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Hitanshu Kanabar .</a> - All rights reserved</p>
         </div>
     </footer>
     </div>
